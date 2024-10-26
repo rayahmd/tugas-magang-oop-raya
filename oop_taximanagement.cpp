@@ -378,6 +378,8 @@ class User{
         else if(opsi == 'b' || opsi == 'B'){
             int jumlah_driver = driver.countDrivers();
             cout << "Terdapat " << jumlah_driver << " tersedia untuk dipesan" << endl;
+            cin.ignore();
+            cin.get();
             system("cls");
             return userMenu();
         }else{
